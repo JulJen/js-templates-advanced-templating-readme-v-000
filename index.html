@@ -11,6 +11,7 @@
 
     <script id="issue-template" type="text/x-handlebars-template">
       {{#each this}}
+
       <article>
         <header><h3>Issue #{{number}} ({{state}})</h3></header>
         <p>{{comment_body}}</p>
@@ -22,6 +23,7 @@
         <footer><a href="{{url}}">created {{created_at}}</a></footer>
       </article>
       {{/each}}
+      
     </script>
 
   </body>
