@@ -6,6 +6,7 @@ Handlebars.registerHelper('comment_body', function() {
   }
 })
 
+
 function loadIssues() {
 
   //passing the whole issues array to template and rendering it all at once
