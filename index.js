@@ -1,4 +1,6 @@
 function loadIssues() {
+
+  //passing the whole issues array to template and rendering it all at once
   var template = Handlebars.compile(document.getElementById("issue-template").innerHTML);
   var result = template(issues);
   document.getElementsByTagName("main")[0].innerHTML += result;
